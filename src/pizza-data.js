@@ -4,9 +4,9 @@ const pizzas = [
     varients: ["small", "medium", "large"],
     prices: [
       {
-        small: 99,
-        medium: 199,
-        large: 399,
+        small: 15000,
+        medium: 30000,
+        large: 50000,
       },
     ],
     category: "veg",
@@ -18,9 +18,9 @@ const pizzas = [
     varients: ["small", "medium", "large"],
     prices: [
       {
-        small: 229,
-        medium: 399,
-        large: 599,
+        small: 22000,
+        medium: 39000,
+        large: 59000,
       },
     ],
     category: "veg",
@@ -33,9 +33,9 @@ const pizzas = [
     varients: ["small", "medium", "large"],
     prices: [
       {
-        small: 180,
-        medium: 290,
-        large: 460,
+        small: 18000,
+        medium: 29000,
+        large: 46000,
       },
     ],
     category: "veg",
@@ -48,9 +48,9 @@ const pizzas = [
     varients: ["small", "medium", "large"],
     prices: [
       {
-        small: 249,
-        medium: 349,
-        large: 599,
+        small: 24900,
+        medium: 34900,
+        large: 59900,
       },
     ],
     category: "nonveg",
@@ -63,9 +63,9 @@ const pizzas = [
     varients: ["small", "medium", "large"],
     prices: [
       {
-        small: 320,
-        medium: 580,
-        large: 800,
+        small: 32000,
+        medium: 58000,
+        large: 80000,
       },
     ],
     category: "nonveg",
@@ -78,9 +78,9 @@ const pizzas = [
     varients: ["small", "medium", "large"],
     prices: [
       {
-        small: 250,
-        medium: 380,
-        large: 500,
+        small: 25000,
+        medium: 38000,
+        large: 75000,
       },
     ],
     category: "nonveg",
