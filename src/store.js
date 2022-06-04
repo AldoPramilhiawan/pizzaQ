@@ -9,7 +9,14 @@ const rootReducer = combineReducers({
     getAllPizzaReducer:getAllPizzaReducer,
     cartReducer: cartReducer,
 })
-const initialState = {}
+
+const cartItems = localStorage.getItem("cartItems") ? JSON.parse(localStorage.getItem("cartItems")) :[]
+
+const initialState = {
+    cartReducer : {
+        cartItems: cartItems
+    }
+};
 const middleware = [thunk]
 
 const store = createStore(rootReducer, initialState, composeWithDevTools(applyMiddleware(...middleware)));
